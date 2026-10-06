@@ -15,3 +15,4 @@ class Rectangle:
 length = float(input("Enter length: "))
 width = float(input("Enter width: "))
 rectangle = Rectangle(length, width)
+print(rectangle)
