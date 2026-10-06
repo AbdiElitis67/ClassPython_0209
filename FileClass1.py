@@ -12,3 +12,4 @@ class Rectangle:
     def __str__(self):
         return f"Rectangle, {self.length} cm long, and {self.width} cm wide"
 
+length = float(input("Enter length: "))
