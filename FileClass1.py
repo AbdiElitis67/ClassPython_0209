@@ -9,12 +9,3 @@ class Rectangle:
     def area(self):
         return self.length * self.width
 
-    def __str__(self):
-        return f"Rectangle, {self.length} cm long, and {self.width} cm wide"
-
-length = float(input("Enter length: "))
-width = float(input("Enter width: "))
-rectangle = Rectangle(length, width)
-print(rectangle)
-print("Circumference:", rectangle.circumference(), "cm")
-print("Area:", rectangle.area(), "cm²")
